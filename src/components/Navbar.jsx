@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <header>
       <div className="bg-[#936f24] text-white w-full fixed z-20 drop-shadow-md">
         <nav className="max-w-[90%] mx-auto py-5 flex justify-between items-center">
           <a href="/" className="flex items-center">
@@ -100,7 +100,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-    </div>
+    </header>
   );
 };
 
