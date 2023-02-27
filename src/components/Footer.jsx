@@ -13,7 +13,7 @@ const Footer = () => {
         to stay up-to-date and give us feedback for the future.
       </p>
       <div className="text-secondary-bg flex gap-5 py-5">
-        <a href="#">
+        <a href="https://t.me/House_of_Nefertiti">
           <FaTelegram size={30} />
         </a>
         <a href="#">
