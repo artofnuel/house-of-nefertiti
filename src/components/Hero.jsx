@@ -21,7 +21,7 @@ const Hero = () => {
               className="flex items-center p-1 md:p-2 pl-3 md:pl-5 gap-5 bg-white font-semibold text-primary-bg rounded-full"
             >
               Buy Now
-              <span className="bg-primary-bg text-white p-1 md:p-2 ml-5 md:pl-5 rounded-full">
+              <span className="bg-primary-bg text-white p-1 md:p-2 ml-5 md:ml-5 rounded-full">
                 <MdDoubleArrow />
               </span>
             </a>
@@ -30,7 +30,7 @@ const Hero = () => {
               className="flex items-center p-1 md:p-2 pl-3 md:pl-5 gap-5 bg-white font-semibold text-primary-bg rounded-full"
             >
               Chart
-              <span className="bg-primary-bg text-white p-1 md:p-2 ml-5 md:pl-5 rounded-full">
+              <span className="bg-primary-bg text-white p-1 md:p-2 ml-5 md:ml-5 rounded-full">
                 <MdDoubleArrow />
               </span>
             </a>

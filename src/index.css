@@ -2,8 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .hero-content {
   background-image: url("../src/assets/hero-image.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.tokenomics {
+  background-image: url("../src/assets/bkg1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.services {
+  background-image: url("../src/assets/bkg2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  /* gap: 20px; */
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline__date--right {
+  text-align: right;
+}
+
+.timeline__middle {
+  position: relative;
+  background-color: white;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
 }

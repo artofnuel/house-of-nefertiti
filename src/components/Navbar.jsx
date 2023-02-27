@@ -12,30 +12,30 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="bg-[#936f24] text-white w-full fixed z-10 drop-shadow-md">
+      <div className="bg-[#936f24] text-white w-full fixed z-20 drop-shadow-md">
         <nav className="max-w-[90%] mx-auto py-5 flex justify-between items-center">
-          <div className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src={logo} alt="Nefertiti-logo" className="w-6 md:w-10" />
             <p className="uppercase text-sm">Nefertiti 3333</p>
-          </div>
+          </a>
           <ul className="lg:flex gap-5 hidden">
             <li>
-              <a href="">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="">Why</a>
+              <a href="#why">Why</a>
             </li>
             <li>
-              <a href="">Contract</a>
+              <a href="#contract">Contract</a>
             </li>
             <li>
-              <a href="">Roadmap</a>
+              <a href="#tokenomics">Token Sale</a>
             </li>
             <li>
-              <a href="">Token</a> Sale
+              <a href="#roadmap">Roadmap</a>
             </li>
             <li>
-              <a href="">Community</a>
+              <a href="#community">Community</a>
             </li>
           </ul>
           <div
@@ -51,22 +51,22 @@ const Navbar = () => {
           <div className={nav ? "fixed top-20 left-0 right-0" : "hidden"}>
             <ul className="flex md:hidden w-[90%] gap-2 mx-auto bg-white text-primary-bg p-2 flex-col justify-center items-center rounded-md">
               <li>
-                <a href="">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="">Why</a>
+                <a href="#why">Why</a>
               </li>
               <li>
-                <a href="">Contract</a>
+                <a href="#contract">Contract</a>
               </li>
               <li>
-                <a href="">Roadmap</a>
+                <a href="#tokenomics">Token Sale</a>
               </li>
               <li>
-                <a href="">Token</a> Sale
+                <a href="#roadmap">Roadmap</a>
               </li>
               <li>
-                <a href="">Community</a>
+                <a href="#community">Community</a>
               </li>
               <div className="flex gap-5 uppercase md:hidden">
                 <a
